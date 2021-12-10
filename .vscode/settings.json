@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "C:\\Users\\mjmedina\\.virtualenvs\\CursoDjango-lmKI6ZK8\\python.exe",
+    "python.linting.enabled": true,  
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintEnabled": true,
+    "python.languageServer": "Pylance",
+    "python.linting.pycodestyleEnabled": false, 
+    "python.analysis.useImportHeuristic": true,    
+    "python.linting.pycodestyleArgs": ["--ignore=E501,E226,E116"],
+    "python.formatting.autopep8Args": ["--max-line-length=200"],
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--disable=django-not-configured,missing-module-docstring,missing-class-docstring"
+    ],
+    "emmet.includeLanguages": {"django-html": "html"},
+}
